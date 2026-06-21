@@ -12,7 +12,7 @@ MAX_DATA_LEN=32
 BORDERS_AND_PADDING=7
 
 # Basic configuration, change as needed
-report_title="UNITED STATES GRAPHICS COMPANY"
+report_title="MACHINE REPORT"
 last_login_ip_present=0
 zfs_present=0
 zfs_filesystem="zroot/ROOT/os"
@@ -335,7 +335,6 @@ fi
 # Machine Report
 PRINT_HEADER
 PRINT_CENTERED_DATA "$report_title"
-PRINT_CENTERED_DATA "TR-100 MACHINE REPORT"
 PRINT_DIVIDER "top"
 PRINT_DATA "OS" "$os_name"
 PRINT_DATA "KERNEL" "$os_kernel"
